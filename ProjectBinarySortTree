@@ -1,0 +1,16 @@
+Binary Search Tree (BST), her düðümde sol alt aðacýn tüm deðerlerinin düðüm deðerinden küçük, sað alt aðacýn tüm deðerlerinin ise düðüm deðerinden büyük olduðu bir aðaç yapýsýdýr.
+
+Verilen dizi: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+Bu diziye göre Binary Search Tree (BST) oluþturulmasý aþaðýdaki gibi olacaktýr:
+
+Ýlk eleman 7'yi root olarak alýrýz.
+Ýkinci eleman 5, root'tan küçük olduðu için sol çocuk olur.
+Üçüncü eleman 1, 5'ten küçük olduðu için 5'in sol çocuðu olur.
+Dördüncü eleman 8, root'tan büyük olduðu için sað çocuk olur.
+Beþinci eleman 3, 1'den büyük ama 5'ten küçük olduðu için 1'in sað çocuðu olur.
+Altýncý eleman 6, 5'ten büyük ama 7'den küçük olduðu için 5'in sað çocuðu olur.
+Yedinci eleman 0, 1'den küçük olduðu için 1'in sol çocuðu olur.
+Sekizinci eleman 9, root'tan ve 8'den büyük olduðu için 8'in sað çocuðu olur.
+Dokuzuncu eleman 4, 3'ten büyük ama 5'ten küçük olduðu için 3'ün sað çocuðu olur.
+Onuncu eleman 2, 1'den büyük ama 3'ten küçük olduðu için 3'ün sol çocuðu olur.
